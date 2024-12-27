@@ -1,0 +1,11 @@
+.first{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(172, 138, 227);
+}body{
+    & .second{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(28, 31, 28);
+    }
+}
